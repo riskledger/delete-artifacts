@@ -1,0 +1,37 @@
+{
+  "name": "delete-artifacts",
+  "version": "1.0.0",
+  "description": "",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/riskledger/delete-artifacts.git"
+  },
+  "keywords": [
+    "github",
+    "actions",
+    "delete",
+    "artifacts",
+    "workflows"
+  ],
+  "bugs": {
+    "url": "https://github.com/riskledger/delete-artifacts/issues"
+  },
+  "homepage": "https://github.com/riskledger/delete-artifacts#readme",
+  "scripts": {
+    "lint": "eslint --ext .js",
+    "build": "ncc build main.js --license licenses.txt"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@actions/core": "^1.2.7",
+    "@actions/github": "^5.0.0"
+  },
+  "devDependencies": {
+    "@vercel/ncc": "^0.28.5",
+    "eslint": "^7.26.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-prettier": "^3.4.0",
+    "prettier": "^2.3.0"
+  }
+}
