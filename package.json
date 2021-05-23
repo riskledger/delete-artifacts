@@ -18,7 +18,7 @@
   },
   "homepage": "https://github.com/riskledger/delete-artifacts#readme",
   "scripts": {
-    "lint": "eslint --ext .js",
+    "lint": "./node_modules/eslint/bin/eslint.js --ext .js",
     "build": "ncc build main.js --license licenses.txt"
   },
   "license": "MIT",
